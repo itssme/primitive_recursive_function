@@ -1,7 +1,7 @@
 from primitive_recursive_function import *
 
 
-def add(n, m):
+def add(n: int, m: int) -> int:
     return R(proj(0), C(succ, proj(0)))(n, m)
 
 
